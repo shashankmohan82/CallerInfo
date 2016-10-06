@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#faf7f7</color>
+    <color name="colorPrimaryDark">#c62828</color>
+    <color name="colorPrimary">#ebedef</color>
+    <color name="colorPrimary2">#ffffff</color>
+    <color name="colorText">#7b8083</color>
+    <color name="holo_blue">#65adc9</color>
+    <color name="holo_blue2">#d32f2f</color>
+    <color name="holo_blue3">#4285f4</color>
+    <color name="holo_blue4">#598cca</color>
+    <color name="holo_bluedark">#2a6cda</color>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:id="@+id/ly1"
+    android:layout_height="150dp"
+    android:fitsSystemWindows="false"
+    tools:context="shashank.com.callerinfo.OverlayActivity"
+    android:windowIsFloating="true"
+
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="90dp"
+                android:textSize="20dp"
+                android:typeface="normal"
+                android:textColor="@color/holo_blue3"
+                android:text="MARK RUFFALO" />
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/cancel"
+                android:layout_toRightOf="@+id/button"
+                android:layout_marginTop="70dp"
+                android:layout_width="47dp"
+                android:src="@drawable/plus"
+                android:layout_marginLeft="190dp"
+                android:layout_height="47dp"
+                android:elevation="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="centerCrop"
+                android:onClick="buttonClick"
+                android:layout_marginLeft="37dp"
+                android:src="@drawable/phonecall1"
+                android:layout_marginTop="80dp"
+                android:id="@+id/button"
+                android:background="#00ffffff"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="14dp"
+                android:text="+917761841911"
+                android:layout_marginLeft="90dp"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/text"
+                 />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:textSize="16dp"-->
+                <!--android:text="Call"-->
+                <!--android:layout_marginLeft="45dp"-->
+                <!--android:id="@+id/tv"-->
+
+                <!--android:layout_below="@+id/button"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_marginLeft="260dp"-->
+                <!--android:textSize="16dp"-->
+                <!--android:text="Save"-->
+                <!--android:id="@+id/tv2"-->
+
+                <!--android:layout_below="@+id/cancel"-->
+                <!--/>-->
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/user"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="20dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@color/holo_blue3" />
+
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:id="@+id/ly1"
+    android:layout_height="140dp"
+    android:fitsSystemWindows="false"
+    tools:context="shashank.com.callerinfo.OverlayActivity"
+    android:windowIsFloating="true"
+
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/comic_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/user"
+                android:scaleType="centerCrop"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="85dp"
+                android:textSize="20dp"
+                android:typeface="normal"
+                android:textColor="@color/holo_blue3"
+                android:layout_toRightOf="@+id/comic_image"
+                android:text="MARK RUFFALO" />
+
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:id="@+id/spamStat"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/holo_blue3" />
+
+
+            <ImageButton
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:onClick="buttonClick"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/cross"
+                android:layout_marginTop="90dp"
+                android:id="@+id/button"
+                android:background="#00ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="14dp"
+                android:text="vikalp kumar"
+                android:layout_marginTop="72dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/textView2"
+                android:layout_toRightOf="@+id/phone" />
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:id="@+id/phone"
+                android:src="@drawable/phonecall"
+                android:layout_marginTop="71dp"
+                android:layout_marginLeft="20dp"/>
+
+            <View android:id="@+id/separator"
+                android:background="#ffffff"
+                android:layout_width = "fill_parent"
+                android:layout_height="1dip"
+                android:layout_centerVertical ="true"
+                android:layout_alignParentTop="true"/>
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:id="@+id/location"
+                android:src="@drawable/placeholder"
+                android:layout_marginTop="96dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_marginLeft="80dp"
+                android:text="Medium Text"
+                android:id="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/tag_red"
+                android:layout_toRightOf="@+id/text"
+                android:layout_toEndOf="@+id/text"
+                 />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@color/holo_blue3" />
+
+        </RelativeLayout>
+
+</RelativeLayout>
