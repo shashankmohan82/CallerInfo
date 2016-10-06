@@ -100,7 +100,7 @@ public class OverlayActivity extends AppCompatActivity {
 
                 if(cl.isSpam(number)){
 
-                   imageView.setImageResource(R.drawable.tag_green);
+                   imageView.setImageResource(R.drawable.tag_red);
                 }
                 else {
                     imageView.setImageResource(R.drawable.tag_green);
