@@ -1,28 +1,15 @@
 package shashank.com.callerinfo;
 
-import android.Manifest;
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
-import android.util.Log;
 import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import java.util.HashMap;
-
-import static shashank.com.callerinfo.R.color.colorText;
 
 public class OverlayActivity extends AppCompatActivity {
 
@@ -40,7 +27,7 @@ public class OverlayActivity extends AppCompatActivity {
         window.setBackgroundDrawableResource(R.color.colorPrimary);
         setContentView(R.layout.activity_overlay);
 
-//        WindowManager.LayoutParams layoutParams = window.getAttributes();
+        WindowManager.LayoutParams layoutParams = window.getAttributes();
 //        layoutParams.gravity = Gravity.TOP | Gravity.LEFT;
 //
 //        final RelativeLayout rl = (RelativeLayout)findViewById(R.id.ly1);
