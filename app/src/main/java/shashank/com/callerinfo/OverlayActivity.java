@@ -27,7 +27,7 @@ public class OverlayActivity extends AppCompatActivity {
         window.setBackgroundDrawableResource(R.color.colorPrimary);
         setContentView(R.layout.activity_overlay);
 
-        WindowManager.LayoutParams layoutParams = window.getAttributes();
+        //WindowManager.LayoutParams layoutParams = window.getAttributes();
 //        layoutParams.gravity = Gravity.TOP | Gravity.LEFT;
 //
 //        final RelativeLayout rl = (RelativeLayout)findViewById(R.id.ly1);
