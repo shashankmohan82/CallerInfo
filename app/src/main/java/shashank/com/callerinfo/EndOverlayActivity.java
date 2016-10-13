@@ -41,8 +41,7 @@ public class EndOverlayActivity extends AppCompatActivity {
 //            getWindow().addFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
 //            getWindow().addFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL);
 
-            String number = getIntent().getStringExtra(TelephonyManager.EXTRA_INCOMING_NUMBER);
-            String state = getIntent().getStringExtra(TelephonyManager.EXTRA_STATE);
+
             String name = getIntent().getStringExtra("name");
             number1 = getIntent().getStringExtra("number");
 

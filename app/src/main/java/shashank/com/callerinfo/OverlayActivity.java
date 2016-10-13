@@ -95,7 +95,7 @@ public class OverlayActivity extends AppCompatActivity {
 
                 textView2.setText(cl.fetchName(number));
                 textView3.setText(cl.fetchOperator(number));
-                View view = findViewById(R.id.spamStat);
+
             ImageView imageView = (ImageView) findViewById(R.id.imageView2);
 
                 if(cl.isSpam(number)){
